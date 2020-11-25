@@ -1,0 +1,194 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.45;
+}
+
+h1 {
+  color: #36413c;
+}
+
+p {
+  color: #5e6366;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cards-container {
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+}
+
+.banner {
+  background-image: url('./assets/main-banner.png');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 20px;
+  position: relative;
+}
+
+.banner-content {
+  padding: 20px;
+  position: absolute;
+}
+
+.wavy {
+  background-image: url('./assets/banner-wave.svg');
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 20px;
+  opacity: 0.6;
+}
+
+.banner-btn {
+  height: 48px;
+  border-radius: 4px;
+  background: #de6c17;
+  padding: 15px 40px;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.dog-content {
+  padding: 20px 15px 50px 15px;
+}
+
+.link-btn {
+  color: #de6c17;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mobile-banner-heading {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .mobile-banner-sub-heading {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .mobile-heading-one {
+    font-size: 30px;
+    font-weight: 700px;
+  }
+  .mobile-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .mobile-banner-heading {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .mobile-banner-sub-heading {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .mobile-heading-one {
+    font-size: 30px;
+    font-weight: 700px;
+  }
+  .mobile-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .two-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  img {
+    height: 100%;
+  }
+  .banner-heading {
+    color: #fff;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .banner-sub-heading {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .banner-content {
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+  }
+  .heading-one {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .paragraph {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .two-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .three-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  img {
+    height: auto;
+  }
+  .our-services {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
